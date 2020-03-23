@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`NavBar should render correctly with no props 1`] = `
-<nav
-  className="NavBar"
->
-  Latest Updates
-</nav>
+Object {
+  "print": [Function],
+  "test": [Function],
+}
 `;

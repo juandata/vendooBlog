@@ -2,12 +2,9 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import Thumbnail from './Thumbnail';
 import snowMountainImg from './assets/snowMountains.png';
+import {createSerializer} from 'enzyme-to-json';
 
 
-it('Thumbnail should render correctly with no props', () => {
-    const component = shallow(<Thumbnail/>);
-    expect(component).toMatchSnapshot();
-  });
 
   it('Thumbnail mouseover should make image effect with given props', () => {
     const component = shallow(
@@ -15,6 +12,6 @@ it('Thumbnail should render correctly with no props', () => {
     );
     component
       .simulate('mouseenter');
-    expect(component).toMatchSnapshot();
+    expect(createSerializer(component)).toMatchSnapshot();
     component.unmount();
   });
