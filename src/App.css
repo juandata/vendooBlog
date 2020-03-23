@@ -1,0 +1,11 @@
+.App {
+    margin: 33px 25px 33px 20px;
+}
+.MainHeader {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 47px;
+    
+}
+
+

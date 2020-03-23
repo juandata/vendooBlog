@@ -1,0 +1,7 @@
+
+1- import fonts from google to style css, eliminate margin and add 100vhh to html. 
+https://fonts.google.com/specimen/Montserrat?query=montserra
+
+2- add semantic html elements to App.js
+
+3- craete components from mobile first

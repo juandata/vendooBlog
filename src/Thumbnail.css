@@ -1,0 +1,75 @@
+.ArticleWrapper {
+    display: flex;
+    align-items: flex-end;
+    background-size: 100%;
+    min-height: 248px;
+    background-position: bottom;
+    margin-bottom: 11px;
+    transition: 0.3s;
+ 
+}
+.ArticleWrapper:hover {
+    background-size: 110%;
+}
+.SmallThumbnail {
+    min-height: 100px;
+    flex-grow: 1;
+}
+.PicturesAllInfoWrapper {
+    display: flex;
+    width: 100%;
+    display: flex;
+    color : #ffffff;
+    flex-direction: column;
+}   
+
+.ArticleHeader {
+    margin-left: 20px;
+    width: 290px;
+height: 39px;
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 600;
+
+color: #ffffff;
+text-decoration: none solid rgb(255, 255, 255);
+}
+.PicturesInfoWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.LikesInfo {
+   margin-left: 20px;
+   width: 62px;
+height: 18px;
+font-family: Montserrat;
+font-size: 14px;
+color: #ffffff;
+text-decoration: none solid rgb(255, 255, 255);
+letter-spacing: 1px;
+font-weight: 400;
+}
+
+.DateInfo {
+    margin-right: 20px;
+    width: 63px;
+height: 18px;
+font-family: Montserrat;
+font-size: 14px;
+color: #ffffff;
+text-decoration: none solid rgb(255, 255, 255);
+letter-spacing: 1px;
+text-align: right;
+font-weight: 400;
+}
+.SmallFont {
+    width: 290px;
+height: 22px;
+font-family: Montserrat;
+font-size: 18px;
+color: #ffffff;
+text-decoration: none solid rgb(255, 255, 255);
+}
+.ThumbnailSection2 {
+    min-height: 380px;
+}

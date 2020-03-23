@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+html {
+  height : 100vh;
+}
+ body, #root {
+  margin: unset;
+  max-height: 100%;}
+
+
+/* Tablets */
+@media only screen and (min-width: 767px) {
+
+ 
+  .MainSection {
+    display: flex;
+    justify-content: space-between;
+}
+  .Section1 {
+    margin-right: 10px;
+    flex-grow: 1.53;
+    min-width: 380px;
+  }
+  .Section2 {
+    margin-left : 9px;
+    min-width: 220px;
+    flex-grow : 1;
+   /* display: flex;
+    flex-direction: column;*/
+  }
+.App {
+  margin: 122px 104px 142px 100px;
+
+}
+
+.SmallThumbnail {
+      min-height: 212px;
+      min-width: 180px;
+}
+.InnerSection {
+  display: flex;
+}
+#root > div > main > section.Section1 > div > article:nth-child(1) {
+margin-right: 5px;
+}
+#root > div > main > section.Section1 > div > article:nth-child(2) {
+  margin-left: 5px;
+}
+}

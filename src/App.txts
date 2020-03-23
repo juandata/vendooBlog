@@ -1,0 +1,5 @@
+import React from "react";
+import "./NavBar.css";
+const App = props => <nav className="NavBar">Latest Updates</nav>;
+
+export default App;
