@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumbnail mouseover should make image effect with given props 1`] = `
+<article
+  className="ArticleWrapper"
+  style={
+    Object {
+      "backgroundImage": "url(snowMountains.png)",
+    }
+  }
+>
+  <div
+    className="PicturesAllInfoWrapper"
+  >
+    <header
+      className="ArticleHeader"
+    >
+      Snow Mountains
+    </header>
+    <div
+      className="PicturesInfoWrapper"
+    >
+      <p
+        className="LikesInfo"
+      >
+        10
+         Likes
+      </p>
+      <p
+        className="DateInfo"
+      >
+        12/18/90
+      </p>
+    </div>
+  </div>
+</article>
+`;
+
+exports[`Thumbnail should render correctly with no props 1`] = `
+<article
+  className="ArticleWrapper SmallThumbnail"
+  style={
+    Object {
+      "backgroundImage": "url(undefined)",
+    }
+  }
+>
+  <div
+    className="PicturesAllInfoWrapper"
+  >
+    <header
+      className="ArticleHeader SmallFont"
+    />
+    <div
+      className="PicturesInfoWrapper"
+    >
+      <p
+        className="LikesInfo"
+      >
+         Likes
+      </p>
+    </div>
+  </div>
+</article>
+`;
