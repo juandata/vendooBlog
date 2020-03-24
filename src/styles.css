@@ -25,8 +25,6 @@ html {
     margin-left : 9px;
     min-width: 220px;
     flex-grow : 1;
-   /* display: flex;
-    flex-direction: column;*/
   }
 .App {
   margin: 122px 104px 142px 100px;

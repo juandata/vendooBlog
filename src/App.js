@@ -38,3 +38,17 @@ export default function App() {
   );
 }
 
+
+
+
+/**  <header className="MainHeader">
+        </header>
+        <main className="MainSection">
+          <section className="Section1">
+
+          </section>
+          <section className="Section2">
+
+          </section>
+
+        </main> */
