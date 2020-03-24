@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 import "./Thumbnail.css";
 
 const Thumbnail = props => {
@@ -25,7 +27,13 @@ const Thumbnail = props => {
  
 }
      
- 
+Thumbnail.propTypes = {
+  Title: PropTypes.string.isRequired,
+  Likes : PropTypes.number.isRequired,
+  Date : PropTypes.string,
+  Img : PropTypes.string.isRequired,
+  Id : PropTypes.string
+};
 
 
 export default Thumbnail;

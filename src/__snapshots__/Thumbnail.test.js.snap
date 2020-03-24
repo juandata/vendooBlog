@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumbnail mouseover should make image effect with given props 1`] = `
+Object {
+  "print": [Function],
+  "test": [Function],
+}
+`;

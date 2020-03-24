@@ -39,20 +39,16 @@ export default function App() {
 }
 
 
-/**<header className="MainHeader">
-        <MainTitle /> <NavBar />
-      </header>
-      <main className="MainSection">
-        <section className="Section1">
-          <Thumbnail Title="Snow Mountains" Likes={10} Date={"12/18/90"} />
-        </section>
-        <section className="Section2">
-          <Thumbnail Title="Deep Oceans" Likes={1} Date={"6/6/96"} />
-          <Button />
-        </section>
-      </main> */
 
-      /**
-       *         <Thumbnail Title="Deep Oceans" Likes={1} Date={"6/6/96"} Img={deepOceanImg} />
 
-       */
+/**  <header className="MainHeader">
+        </header>
+        <main className="MainSection">
+          <section className="Section1">
+
+          </section>
+          <section className="Section2">
+
+          </section>
+
+        </main> */
